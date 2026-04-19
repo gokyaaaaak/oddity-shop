@@ -278,6 +278,30 @@ img {
     margin-bottom: 20px;
 }
 
+.cap-specs {
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    display: flex;
+    gap: 40px;
+}
+
+.cap-specs p {
+    margin: 0;
+    color: #fff;
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+.cap-specs span.spec-label {
+    display: block;
+    font-size: 0.95rem;
+    color: var(--accent-color);
+    margin-bottom: 5px;
+    font-family: var(--font-body);
+}
+
 /* Features Common */
 .feature-section {
     padding: 150px 5%;
